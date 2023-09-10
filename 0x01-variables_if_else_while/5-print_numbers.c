@@ -9,13 +9,14 @@
  */
 int main(void)
 {
-	int num = 0;
+	char i;
 
-	while (num < 10)
+	for (i = 0; i <= 9; i++)
 	{
-		printf("%d", num);
-		num++;
+		putchar('0' + i);
 	}
+
+	putchar('\n');
 
 	return (0);
 }
