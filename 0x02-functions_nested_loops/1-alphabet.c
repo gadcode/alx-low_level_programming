@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Prints alphabet in lowercase
+ * print_alphabet - Prints alphabet in lowercase
  *
  * Author: @gadcode
  * Date: 12/09/2023
@@ -11,8 +11,8 @@
  */
 void print_alphabet(void)
 {
-	char first_char = 'a';
-	char last_char = 'z';
+	int first_char = 'a';
+	int last_char = 'z';
 
 	while (first_char <= last_char)
 	{
@@ -21,6 +21,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
