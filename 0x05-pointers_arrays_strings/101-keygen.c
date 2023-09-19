@@ -6,24 +6,36 @@
 #define PASSWORD_LENGTH 4
 
 /**
- * main - generates keygen
+ * generateRandomDigit - generates a digit randomly.
+ * Return: Random value modulus 10
+ */
+
+int generatedRandomDigit()
+{
+	return rand() % 10;
+}
+
+/**
+ * main - Entry point
  * Return: Always 0.
  */
 
 int main(void)
 {
-	int r = 0, c = 0;
-	time_t t;
+	srand(time(NULL));
 
-	srand((unsigned int) time(&t));
-	while (c < 277)
+	int password[PASSWORD_LENGTH];
+	int currentSum = 0;
+
+	for (int i = 0; i < PASSWORD_LENGTH - 1; i++)
 	{
-		r = rand() % 128;
-		if ((c + r) > 277)
-			break;
-		c = c + r;
-		printf("%c", r);
+		password[i] = generateRandomDigit();
+		currentSum += password[i];
 	}
-	printf("%c\n", (277 - c));
+
+	password[PASSWORD_LENGTH - 1] = TARGET_SUM -currentSum;
+
+	print("%d%d%d%d\n", password[0], password[1], password[2], password[3]);
+
 	return (0);
 }
