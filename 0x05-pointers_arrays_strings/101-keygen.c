@@ -4,10 +4,6 @@
 
 /**
  * main - generates keygen
- *
- * Author: @gadcode
- * Date: 19/09/2023
- *
  * Return: Always 0.
  */
 
@@ -25,7 +21,6 @@ int main(void)
 		c = c + r;
 		printf("%c", r);
 	}
-
 	printf("%c\n", (2772 - c));
 	return (0);
 }
