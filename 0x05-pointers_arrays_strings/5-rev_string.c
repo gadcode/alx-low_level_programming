@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rfev_string - REverses a string.
+ * rev_string - REverses a string.
  * @s: The parameter
  *
  * Author: @gadcode
@@ -23,7 +23,7 @@ void rev_string(char *s)
 	while (half--)
 	{
 		temp = s[len - i - 1];
-		s[len -i - 1] = s[i];
+		s[len - i - 1] = s[i];
 		s[i] = temp;
 		i++;
 	}
