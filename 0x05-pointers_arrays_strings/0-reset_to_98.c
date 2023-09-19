@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - resets an integer to 98.
- * @n: The integer to print its address
+ * @n: The parameter to print its address
  *
  * Author: @gadcode
  * Date: 19/09/2023
@@ -12,6 +12,6 @@
 
 void reset_to_98(int *n)
 {
-	n = 98;
+	*n = 98;
 	return (*n);
 }
