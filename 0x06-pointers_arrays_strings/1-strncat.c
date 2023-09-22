@@ -25,10 +25,11 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		*dest_ptr = *src;
 		dest_ptr++;
+		src++;
 		n--;
 	}
 
-	dest_ptr = '\0';
+	*dest_ptr = '\0';
 
 	return (dest);
 }
