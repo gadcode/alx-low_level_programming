@@ -33,10 +33,10 @@ int _strcmp(char *s1, char *s2)
 	}
 	else if (*s1 == '\0')
 	{
-		return (-1);
+		return (-15);
 	}
 	else
 	{
-		return (1);
+		return (15);
 	}
 }
