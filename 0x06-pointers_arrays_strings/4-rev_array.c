@@ -11,7 +11,7 @@
  * Return: The reversed array of integers
  */
 
-void rev_array(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int start = 0;
 	int end = n - 1;

@@ -10,7 +10,7 @@
  * Return: The uppercase of the given string
  */
 
-char string_toupper(char *str)
+char *string_toupper(char *str)
 {
 	char *ptr = str;
 
