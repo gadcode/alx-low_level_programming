@@ -11,7 +11,7 @@
  * Return: a pointer when the character is found.
  */
 
-char *_strchr(xchar *s, char c)
+char *_strchr(char *s, char c)
 {
 	int i = 0;
 
