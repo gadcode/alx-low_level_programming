@@ -1,6 +1,25 @@
 #include "main.h"
 
 /**
+ * ch_free_grid - frees a 2 dimensional array.
+ * @grid: multi-dimenional array of char
+ * @height: height of the array
+ *
+ * Return: Nothing.
+ */
+
+void ch_free_grid(char **grid, unsigned int height)
+{
+	if (grid != NULL && height != 0)
+	{
+		for (; height > 0; height--)
+			free(grid[height]);
+		free(grid[height]);
+		free(grid);
+	}
+}
+
+/**
  * strtow - splits a string into words
  * @str: string parameter
  *
