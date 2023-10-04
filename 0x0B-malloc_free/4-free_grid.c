@@ -1,7 +1,7 @@
-#includ "main.h"
+#include "main.h"
 
 /**
- * free_grid - frees a 2 dimensional grid previouly created
+ * free_grid - frees a 2 dimensional grid previously created
  * at alloc_grid function
  * @grid: multi-dimensional array of integers
  * @height: height of the grid
