@@ -39,4 +39,6 @@ To successfully compile a C file, it is vital to add all the .c files involved i
 |**[0x0A-argc_argv](https://github.com/gadcode/alx-low_level_programming/tree/master/0x0A-argc_argv)**|0-whatsmyname.c, 1-args.c, 2-args.c, 3-mul.c, 4-add.c, 100-change.c, main.h, README.md|
 |**[0x0B-malloc_free](https://github.com/gadcode/alx-low_level_programming/tree/master/0x0B-malloc_free)**|0-create_array.c, 1-strdup.c, 2-str_concat.c, 3-alloc_grid.c, 4-free_grid.c, 100-argstostr.c, 101-strtow.c, main.h, README.md|
 |**[0x0C-more_malloc_free](https://github.com/gadcode/alx-low_level_programming/tree/master/0x0C-more_malloc_free)**|0-malloc_checked.c, 1-string_nconcat.c, 2-calloc.c, 3-array_range.c, 100-realloc.c, 101-mul.c, main.h, README.md|
+|**[0x0D-preprocessor](https://github.com/gadcode/alx-low_level_programming/tree/master/0x0D-preprocessor)**|0-object_like_macro.h, 1-pi.h, 2-main.c, 3-function_like_macro.h, 4-sum.h, README.md|
+|**[0x0E-structures_typedef](https://github.com/gadcode/alx-low_level_programming/tree/master/0x0E-structures_typedef)**|1-init_dog.c, 2-print_dog.c, 4-new_dog.c, 5-free_dog.c, dog.h, README.md|
 |                       |                       |
