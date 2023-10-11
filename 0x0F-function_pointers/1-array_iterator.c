@@ -13,7 +13,7 @@
  * Return: the iterated array.
  */
 
-void array_iterator(int *array, size_t size, void (*action))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	if (array == NULL || action == NULL)
 		return;
