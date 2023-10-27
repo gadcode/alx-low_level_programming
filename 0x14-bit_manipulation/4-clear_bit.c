@@ -5,7 +5,7 @@
  * @n: a string of 0 and 1 chars
  * @index: index of the bit you want to get
  *
- * Return: 1 if successful, or -1 
+ * Return: 1 if successful, or -1
  */
 
 int clear_bit(unsigned long int *n, unsigned int index)
